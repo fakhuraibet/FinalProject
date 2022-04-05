@@ -1,0 +1,93 @@
+.nav1 {
+  background-color: hsl(187, 46%, 68%);
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.nav1 a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.nav1 a:hover {
+  background-color: black;
+  color: #ddd;
+}
+
+/* Add a color to the active/current link */
+.nav1 a.active {
+  background-color: #ddd;
+  color: black;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.navbar-darkbg-dark {
+  font-family: "Amiri", serif;
+  font-family: "Ramaraja", serif;
+  font-family: "Righteous", cursive;
+  font-family: "Sansita Swashed", cursive;
+}
+
+.nav-cont {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: rgb(191, 240, 236);
+  border-radius: 5px;
+}
+.nav-item {
+  padding: 1em;
+}
+
+.btnbtn-secondarydropdown-toggle {
+  background-color: rgb(235, 216, 109);
+  color: black;
+}
+
+.buttonss {
+  padding: 0;
+  border: none;
+  background: none;
+}
+.osh {
+  color: rgb(40, 40, 49);
+  text-indent: 50px;
+  font-family: "Amiri", serif;
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Rakkas", cursive;
+  font-family: "Ramaraja", serif;
+  font-family: "Righteous", cursive;
+  font-family: "Sansita Swashed", cursive;
+}
+.title {
+  text-align: center;
+  margin-top: 3%;
+  margin-bottom: 4%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(6, 6, 65);
+  font-size: 66px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 6%;
+  text-decoration: none;
+  border: none;
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  font-size: 35px;
+  border-radius: 35px;
+  color: rgb(235, 216, 109);
+  background-color: rgb(6, 6, 65);
+}
